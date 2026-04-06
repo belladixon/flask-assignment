@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    <h1>Hello! My Flask app is working.</h1>
-</body>
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
-{% block title %}Home{% endblock %}
+{% block title %} Welcome to my page {% endblock %}
 
 {% block body %}
-    <h1>Welcome to my Flask website!</h1>
-    <p>This page is using Jinja templating.</p>
+<main>
+    <h1>Bella Dixon</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, iste ea cumque et
+        placeat non vero, veritatis quis quia minima, quod fuga! Sequi necessitatibus at ab aliquid
+        voluptatem illo.
+    </p>
+</main>
 {% endblock %}
